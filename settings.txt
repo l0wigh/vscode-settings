@@ -1,0 +1,68 @@
+	"files.autoSave": "afterDelay",
+	"editor.fontFamily": "'Victor Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+	"editor.fontSize": 23,
+	"editor.fontLigatures": true,
+	"zenMode.centerLayout": true,
+	"zenMode.hideLineNumbers": false,
+	"zenMode.fullScreen": true,
+	"editor.colorDecorators": true,
+	"vim.statusBarColors.normal": "#005f5f",
+	"editor.tabCompletion": "on",
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	"html.format.indentInnerHtml": true,
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": ["j", "k"],
+			"after": ["<Esc>", "<C-s>"]
+		},
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["j"],
+			"after": ["h"]
+		},
+		{
+			"before": ["k"],
+			"after": ["j"]
+		},
+		{
+			"before": ["l"],
+			"after": ["k"]
+		},
+		{
+			"before": ["m"],
+			"after": ["l"]
+		},
+		{
+			"before": ["ù"],
+			"after": ["0"]
+		},
+		{
+			"before": ["<CR>"],
+			"after": ["o", "<Esc>"]
+		},
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": ["j"],
+			"after": ["h"]
+		},
+		{
+			"before": ["k"],
+			"after": ["j"]
+		},
+		{
+			"before": ["l"],
+			"after": ["k"]
+		},
+		{
+			"before": ["m"],
+			"after": ["l"]
+		},
+		{
+			"before": ["ù"],
+			"after": ["0"]
+		},
+	],
+	"vim.useCtrlKeys": true,
